@@ -11,13 +11,19 @@ function App() {
       {/* Testing your Button component */}
       
       <Button>My Button</Button>
+      <Button variant="fill" color="secondary">Fill/Secondary</Button>{/* practice btn */}
       {/* <Button>Fill/Medium/Primary</Button> */}
+      <Button>Fill/Medium/Primary</Button>
       {/* <Button variant="outline">Outline/Medium/Primary</Button> */}
+      <Button variant="outline">Outline/Medium/Primary</Button>
       {/* <Button variant="text">Text/Medium/Primary</Button> */}
+      <Button variant="text">Text/Medium/Primary</Button>
       {/* <Button color="secondary" size="large" icon={<AddIcon />} onClick={()=>{ alert("Button clicked!")}}>
         Fill/Large/Secondary/Icon/OnClick
       </Button> */}
+      <Button color="secondary" size="large" icon={<AddIcon />} onClick={() => {alert("Button clicked!")}}>Fill/Large/Secondary/Icon/OnClick</Button>
       {/* <Button disabled size="small">Fill/Small/Disabled</Button> */}
+      <Button disabled size="small">Fill/Small/Disabled</Button>
     </>
   )
 }
